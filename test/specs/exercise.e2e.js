@@ -10,6 +10,8 @@ describe('Czechitas Login Page', async () => {
 
         await browser.url('/prihlaseni');
 
+        await browser.saveScreenshot("prihlaseni_page.png")
+
         await browser.pause(5000);
 
     });
